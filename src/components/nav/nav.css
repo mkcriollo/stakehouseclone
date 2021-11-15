@@ -1,0 +1,62 @@
+/* default settings */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NAV CSS */
+
+.navbar {
+  width: 100vw;
+  height: 100px;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.nav-guide-holder {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.nav-guide-holder li {
+  list-style: none;
+}
+
+.nav-guide-holder li:hover {
+  color: #333;
+}
+
+.fa-bars {
+  font-size: 20px;
+  color: black;
+  display: none;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-left: 20px;
+  }
+  .nav-guide-holder {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
+}
