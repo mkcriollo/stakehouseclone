@@ -1,0 +1,35 @@
+.full-footer {
+  width: 100vw;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+.issues {
+  margin-left: 10px;
+}
+
+.issues > p > a {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  text-underline-offset: 5px;
+}
+
+.issues > p > a:hover {
+  color: orangered;
+}
+
+.design-by {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: center;
+}
+
+.fa-copyright {
+  margin-right: 5px;
+}
