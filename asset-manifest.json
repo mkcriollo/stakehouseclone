@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/stakehouseclone/static/css/main.51e27d54.chunk.css",
-    "main.js": "/stakehouseclone/static/js/main.9fe99676.chunk.js",
-    "main.js.map": "/stakehouseclone/static/js/main.9fe99676.chunk.js.map",
+    "main.css": "/stakehouseclone/static/css/main.a6812280.chunk.css",
+    "main.js": "/stakehouseclone/static/js/main.3c2c1920.chunk.js",
+    "main.js.map": "/stakehouseclone/static/js/main.3c2c1920.chunk.js.map",
     "runtime-main.js": "/stakehouseclone/static/js/runtime-main.1c40e054.js",
     "runtime-main.js.map": "/stakehouseclone/static/js/runtime-main.1c40e054.js.map",
     "static/js/2.069c4e86.chunk.js": "/stakehouseclone/static/js/2.069c4e86.chunk.js",
     "static/js/2.069c4e86.chunk.js.map": "/stakehouseclone/static/js/2.069c4e86.chunk.js.map",
     "index.html": "/stakehouseclone/index.html",
-    "static/css/main.51e27d54.chunk.css.map": "/stakehouseclone/static/css/main.51e27d54.chunk.css.map",
+    "static/css/main.a6812280.chunk.css.map": "/stakehouseclone/static/css/main.a6812280.chunk.css.map",
     "static/js/2.069c4e86.chunk.js.LICENSE.txt": "/stakehouseclone/static/js/2.069c4e86.chunk.js.LICENSE.txt",
     "static/media/home.css": "/stakehouseclone/static/media/wolf.cd2a378c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1c40e054.js",
     "static/js/2.069c4e86.chunk.js",
-    "static/css/main.51e27d54.chunk.css",
-    "static/js/main.9fe99676.chunk.js"
+    "static/css/main.a6812280.chunk.css",
+    "static/js/main.3c2c1920.chunk.js"
   ]
 }
