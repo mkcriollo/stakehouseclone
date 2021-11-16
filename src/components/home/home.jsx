@@ -18,7 +18,18 @@ function Home() {
         </div>
         <div className="houses-holder">
           <div className="house">
-            <div className="elevate expand-border"></div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="elevate-front">
+                  <div className="elevate expand-border"></div>
+                </div>
+                <div className="elevate-back">
+                  <h1>Claim HouseTokens:</h1>
+                  <h1>8 dETH / 8 SLOT</h1>
+                  <button>Join Stakehouse</button>
+                </div>
+              </div>
+            </div>
             <div className="polygon expand-border"></div>
             <div className="mynt expand-border"></div>
           </div>
