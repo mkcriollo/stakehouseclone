@@ -193,7 +193,7 @@
   font-size: 14px;
 }
 
-.elevate-back > button {
+.elevate-back > a > button {
   margin-top: 10px;
   padding: 10px 10px;
   border-color: #fff;
@@ -203,7 +203,7 @@
   cursor: pointer;
 }
 
-.elevate-back > button:hover {
+.elevate-back > a > button:hover {
   color: orangered;
   border-color: orangered;
 }

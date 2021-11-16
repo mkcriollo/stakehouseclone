@@ -35,7 +35,9 @@ function Home() {
                   <div className="elevate-back">
                     <h1>Claim HouseTokens:</h1>
                     <h1>8 dETH / 8 SLOT</h1>
-                    <button>Join Stakehouse</button>
+                    <a href="https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMjI0ODIxNDky">
+                      <button>Join Stakehouse</button>
+                    </a>
                   </div>
                 </div>
               </div>
