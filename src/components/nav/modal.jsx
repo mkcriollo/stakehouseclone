@@ -1,12 +1,11 @@
 import React from "react";
-import { useState } from "react";
-import "./nav.css";
+import "./modal.css";
 
-function NavBar({ openModal, openedModal, setOpenedModal }) {
+function Modal({ openModal, modalOpened, setModalOpened }) {
   return (
-    <div className="navbar">
-      <div className="logo">StakeHouse</div>
-      <div className="nav-guide-holder">
+    <div className="full-modal">
+      <i class="far fa-times-circle" onClick={() => openModal()}></i>
+      <div className="modal-nav-guide-holder">
         <a href="https://www.notion.so/3-Minute-Guide-How-to-Join-a-StakeHouse-273f063b08bc42ccac33996af05d62bc">
           <li>User Guide</li>
         </a>
@@ -20,9 +19,8 @@ function NavBar({ openModal, openedModal, setOpenedModal }) {
           <li>Blog</li>
         </a>
       </div>
-      <i class="fas fa-bars" onClick={() => openModal()}></i>
     </div>
   );
 }
 
-export default NavBar;
+export default Modal;

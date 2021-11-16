@@ -9,6 +9,7 @@
   height: 100%;
   width: 45%;
   background-image: url("../../imgs/background2.jpeg");
+  background-repeat: no-repeat;
 }
 
 .stake-info-holder {
@@ -282,7 +283,8 @@
     line-height: 30px;
   }
   .houses-holder > div {
-    width: 100%;
+    width: 90%;
     height: 1000px;
+    margin-right: 10px;
   }
 }
