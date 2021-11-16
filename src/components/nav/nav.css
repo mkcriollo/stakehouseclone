@@ -56,12 +56,13 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .logo {
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .nav-guide-holder {
     display: none;
   }
   .fa-bars {
     display: block;
+    margin-right: 20px;
   }
 }
