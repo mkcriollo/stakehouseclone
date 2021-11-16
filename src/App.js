@@ -23,9 +23,9 @@ function App() {
       setOpenedModal(true);
     } else {
       modal.style.display = "none";
-      home.style.display = "block";
+      home.style.display = "flex";
       steps.style.display = "flex";
-      footer.style.display = "block";
+      footer.style.display = "flex";
       setOpenedModal(false);
     }
   }
